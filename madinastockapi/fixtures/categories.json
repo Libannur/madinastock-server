@@ -1,0 +1,122 @@
+[
+  {
+    "model": "madinastockapi.category",
+    "pk": 1,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Halal Meats",
+      "description": "Fresh halal meat including goat, lamb, chicken, and beef",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 2,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Rice & Grains",
+      "description": "Basmati rice, wheat, and other grains for traditional dishes",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 3,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Somali Spices & Seasonings",
+      "description": "Traditional spices like cardamom, coriander, cumin, and spice blends",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 4,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Fresh Vegetables",
+      "description": "Onions, tomatoes, cilantro, and other vegetables for Somali cooking",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 5,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Dairy & Oils",
+      "description": "Ghee, cooking oils, milk, and dairy products",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 6,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Pasta & Noodles",
+      "description": "Spaghetti and pasta for Somali-Italian fusion dishes",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 7,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Beverages",
+      "description": "Tea, coffee, fruit juices, and traditional drinks",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 8,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Bread & Flatbreads",
+      "description": "Injera, anjero, and other traditional breads",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 9,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Legumes & Beans",
+      "description": "Lentils, black-eyed peas, and other legumes for stews",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 10,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Fruits",
+      "description": "Bananas, dates, mangoes, and other fruits",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 11,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Restaurant Supplies",
+      "description": "Disposables, cleaning supplies, and kitchen equipment",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.category",
+    "pk": 12,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Frozen Items",
+      "description": "Frozen samosas, frozen vegetables, and other frozen products",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  }
+]

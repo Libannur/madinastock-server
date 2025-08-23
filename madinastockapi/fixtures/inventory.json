@@ -1,0 +1,422 @@
+[
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 1,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 1,
+      "name": "Goat Meat - Fresh",
+      "description": "Fresh halal goat meat for traditional hilib ari dishes",
+      "unit": "lbs",
+      "notes": "Keep refrigerated, use within 2-3 days. Popular for special occasions",
+      "price": "12.99",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 2,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 1,
+      "name": "Lamb Shoulder",
+      "description": "Fresh halal lamb shoulder for stews and roasts",
+      "unit": "lbs",
+      "notes": "Perfect for maraq (soup) and suqaar dishes",
+      "price": "14.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 3,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 1,
+      "name": "Chicken - Whole",
+      "description": "Fresh halal whole chicken",
+      "unit": "pieces",
+      "notes": "Use for digaag (chicken) dishes and soups",
+      "price": "8.99",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 4,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 1,
+      "name": "Beef Chuck Roast",
+      "description": "Halal beef chuck roast for slow cooking",
+      "unit": "lbs",
+      "notes": "Excellent for hilib lo'ad (beef stew)",
+      "price": "9.75",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 5,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 4,
+      "name": "Basmati Rice - Premium",
+      "description": "Long-grain basmati rice for bariis dishes",
+      "unit": "lbs",
+      "notes": "Rinse well before cooking. Essential for bariis iskukaris",
+      "price": "4.25",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 6,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 4,
+      "name": "Wheat Flour - Whole",
+      "description": "Whole wheat flour for anjero (sourdough flatbread)",
+      "unit": "lbs",
+      "notes": "For making traditional anjero and canjeero",
+      "price": "2.85",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 7,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 2,
+      "name": "Cardamom Pods - Green",
+      "description": "Fresh green cardamom pods for tea and rice dishes",
+      "unit": "oz",
+      "notes": "Essential spice for shaah (tea) and bariis",
+      "price": "18.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 8,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 2,
+      "name": "Coriander Seeds",
+      "description": "Whole coriander seeds for spice blends",
+      "unit": "lbs",
+      "notes": "Grind fresh for best flavor in xawaash spice mix",
+      "price": "8.75",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 9,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 2,
+      "name": "Cumin Seeds",
+      "description": "Whole cumin seeds for traditional seasoning",
+      "unit": "lbs",
+      "notes": "Key ingredient in xawaash and meat marinades",
+      "price": "7.25",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 10,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 2,
+      "name": "Fenugreek Seeds",
+      "description": "Whole fenugreek seeds for spice blends",
+      "unit": "oz",
+      "notes": "Important for authentic Somali spice mix",
+      "price": "5.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 11,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 2,
+      "name": "Cinnamon Sticks",
+      "description": "Ceylon cinnamon sticks for tea and rice",
+      "unit": "oz",
+      "notes": "Use in shaah and bariis for authentic flavor",
+      "price": "12.25",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 12,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Yellow Onions",
+      "description": "Large yellow onions for cooking base",
+      "unit": "lbs",
+      "notes": "Essential base for most Somali dishes",
+      "price": "1.95",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 13,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Fresh Tomatoes",
+      "description": "Ripe tomatoes for sauces and stews",
+      "unit": "lbs",
+      "notes": "For maraq and pasta sauces",
+      "price": "3.75",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 14,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Fresh Cilantro",
+      "description": "Fresh cilantro for garnish and flavor",
+      "unit": "bunches",
+      "notes": "Keep stems in water, use for garnish",
+      "price": "2.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 15,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Fresh Ginger",
+      "description": "Fresh ginger root for tea and cooking",
+      "unit": "lbs",
+      "notes": "Essential for shaah and meat marinades",
+      "price": "4.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 16,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 5,
+      "name": "Ghee - Pure",
+      "description": "Clarified butter for authentic cooking",
+      "unit": "lbs",
+      "notes": "Traditional cooking fat for rice and meat dishes",
+      "price": "9.99",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 17,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 5,
+      "name": "Coconut Oil",
+      "description": "Pure coconut oil for cooking",
+      "unit": "liters",
+      "notes": "Alternative cooking oil, popular in coastal regions",
+      "price": "12.75",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 18,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Spaghetti Pasta",
+      "description": "Durum wheat spaghetti for Somali-Italian dishes",
+      "unit": "lbs",
+      "notes": "Legacy of Italian influence, popular dish",
+      "price": "2.25",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 19,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Red Lentils",
+      "description": "Split red lentils for soups and stews",
+      "unit": "lbs",
+      "notes": "Quick cooking, perfect for maraq adas",
+      "price": "3.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 20,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Black-Eyed Peas",
+      "description": "Dried black-eyed peas for traditional dishes",
+      "unit": "lbs",
+      "notes": "Soak overnight before cooking",
+      "price": "4.25",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 21,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 5,
+      "name": "Black Tea - Loose Leaf",
+      "description": "Strong black tea for traditional shaah",
+      "unit": "lbs",
+      "notes": "Brew strong with cardamom and ginger",
+      "price": "8.99",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 22,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 5,
+      "name": "Whole Milk",
+      "description": "Fresh whole milk for tea and cooking",
+      "unit": "gallons",
+      "notes": "For shaah and rice pudding desserts",
+      "price": "4.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 23,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Bananas - Ripe",
+      "description": "Sweet ripe bananas for desserts and snacks",
+      "unit": "lbs",
+      "notes": "Popular fruit, serve with meals",
+      "price": "2.75",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 24,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Dates - Medjool",
+      "description": "Premium Medjool dates",
+      "unit": "lbs",
+      "notes": "Traditional sweet, especially during Ramadan",
+      "price": "12.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 25,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 3,
+      "name": "Frozen Samosas",
+      "description": "Pre-made frozen samosas ready to fry",
+      "unit": "dozen",
+      "notes": "Popular appetizer, fry until golden brown",
+      "price": "18.99",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 26,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 6,
+      "name": "Paper Plates - Disposable",
+      "description": "Disposable plates for takeout orders",
+      "unit": "cases",
+      "notes": "Eco-friendly option for busy service",
+      "price": "35.99",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 27,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 6,
+      "name": "Food Containers - Takeout",
+      "description": "Microwaveable containers for takeout",
+      "unit": "cases",
+      "notes": "Perfect for rice and stew combinations",
+      "price": "42.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 28,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 5,
+      "name": "Anjero/Injera Bread",
+      "description": "Traditional sourdough flatbread",
+      "unit": "pieces",
+      "notes": "Serve with stews and meat dishes",
+      "price": "3.25",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 29,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 2,
+      "name": "Berbere Spice Mix",
+      "description": "Ethiopian-style spice blend",
+      "unit": "lbs",
+      "notes": "Hot spice blend for meat and vegetable dishes",
+      "price": "15.75",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.inventory",
+    "pk": 30,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "supplier": 5,
+      "name": "Somali Spiced Tea Mix",
+      "description": "Pre-mixed spices for traditional shaah",
+      "unit": "oz",
+      "notes": "Blend of cardamom, cinnamon, cloves for tea",
+      "price": "8.50",
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  }
+]

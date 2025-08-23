@@ -1,0 +1,98 @@
+[
+  {
+    "model": "madinastockapi.supplier",
+    "pk": 1,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Barakah Halal Meats",
+      "email": "orders@barakahhalal.com",
+      "phone": "612-555-0123",
+      "address": "1825 Riverside Ave",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip_code": "55454",
+      "is_active": true,
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.supplier",
+    "pk": 2,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Horn of Africa Spice Company",
+      "email": "wholesale@hornspices.com",
+      "phone": "206-555-0456",
+      "address": "3420 Rainier Ave S",
+      "city": "Seattle",
+      "state": "WA",
+      "zip_code": "98144",
+      "is_active": true,
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.supplier",
+    "pk": 3,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "East African Grocery Wholesale",
+      "email": "orders@eastafricangrocery.com",
+      "phone": "614-555-0789",
+      "address": "1456 Cleveland Ave",
+      "city": "Columbus",
+      "state": "OH",
+      "zip_code": "43201",
+      "is_active": true,
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.supplier",
+    "pk": 4,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Somali Rice & Grain Import",
+      "email": "sales@somalirice.com",
+      "phone": "952-555-0234",
+      "address": "789 University Ave",
+      "city": "St. Paul",
+      "state": "MN",
+      "zip_code": "55104",
+      "is_active": true,
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.supplier",
+    "pk": 5,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Mogadishu Market Supply",
+      "email": "orders@mogadishumarket.com",
+      "phone": "763-555-0567",
+      "address": "2134 Cedar Ave S",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip_code": "55404",
+      "is_active": true,
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "madinastockapi.supplier",
+    "pk": 6,
+    "fields": {
+      "user_id": "restaurant_owner_001",
+      "name": "Restaurant Equipment & Supplies",
+      "email": "sales@restaurantequip.com",
+      "phone": "651-555-0890",
+      "address": "456 Industrial Blvd",
+      "city": "St. Paul",
+      "state": "MN",
+      "zip_code": "55102",
+      "is_active": true,
+      "created_date": "2025-08-23T10:00:00Z"
+    }
+  }
+]
