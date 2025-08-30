@@ -33,3 +33,38 @@ class CategoryView(ViewSet):
         categories = Category.objects.all()
         serializer = CategorySerializer(categories, many=True)
         return Response(serializer.data)
+
+    def create(self, request):
+        """
+        Create a new category
+        POST /api/categories/
+        """
+        category = Category.objects.create(
+            user_id=request.data["user_id"],
+            name=request.data["name"],
+            description=request.data.get("description", "")
+        )
+        serializer = CategorySerializer(category)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk):
+        """
+        Update an existing category
+        PUT /api/categories/{id}/
+        """
+        category = Category.objects.get(pk=pk)
+        category.user_id = request.data["user_id"]
+        category.name = request.data["name"]
+        category.description = request.data.get("description", "")
+        category.save()
+        serializer = CategorySerializer(category)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+    def destroy(self, request, pk):
+        """
+        Delete a category
+        DELETE /api/categories/{id}/
+        """
+        category = Category.objects.get(pk=pk)
+        category.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
